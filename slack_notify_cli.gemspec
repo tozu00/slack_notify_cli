@@ -7,8 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "slack_notify_cli"
   spec.version       = SlackNotifyCli::VERSION
   spec.authors       = "tozu00"
+
   spec.summary       = %q{slack notification command line interface. }
-  # spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.description   = %q{slack notification command line interface. ex.) get channel list, check auth, send message}
   spec.homepage      = "https://github.com/tozu00/slack_notify_cli"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -33,6 +34,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "aruba"
 
   spec.add_dependency "thor"
   spec.add_dependency "slack-ruby-client"

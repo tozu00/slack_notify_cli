@@ -5,3 +5,5 @@ gemspec
 
 gem 'thor'
 gem 'slack-ruby-client'
+
+gem 'aruba', '~> 0.14.9'
