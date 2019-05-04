@@ -20,7 +20,7 @@ Or install it yourself as:
     $ gem install slack_notify_cli
 
 ## Usage
-
+    $ export SLACK_API_TOKEN='x...'
     $ bundle exec exe/slack_notify_cli
 
 ## Development
