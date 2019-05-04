@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "slack_notify_cli"
+
+SlackNotifyCli::Command.start
